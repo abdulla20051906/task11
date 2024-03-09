@@ -1,0 +1,43 @@
+main{
+    .main-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+        margin-top: 5%;
+        h6{
+            font-size: 18px;
+            background: #F3F7F2;
+
+        }
+        p{
+            font-size: 56px;
+            max-width: 612px;
+            padding: 7px;
+        }
+    }
+    .main-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        .main-box{
+            width: 510px;
+            background: #F2F8F8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: start;
+            h3{
+                padding: 30px;
+                font-size: 21px;
+            }
+
+        }
+    }
+    
+}

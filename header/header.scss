@@ -1,0 +1,122 @@
+header{
+
+    .header-top{
+     
+        max-width: 1600px;
+        background: #ADC9A6;
+        display:flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 7px;
+        gap: 8px;
+    }
+    nav{
+     
+        background: #153C3C;
+        display: flex;
+        color: aliceblue;
+        padding: 10px;
+        align-items: center;
+        justify-content: space-between;
+        .nav-header{
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            padding-left: 30px;
+           
+        }
+        .navbar{
+           ul{
+            display: flex;
+            gap: 20px;
+            a{
+                color:white ;
+            }
+           }
+
+        }
+       .nav-btn{
+        padding: 5px;
+        background: #84A17D;
+        color: aliceblue;
+        border-radius: 5px;
+        border: none;
+        margin-right: 40px;
+
+       }
+       .nav-butn{
+        display: none;
+       }
+    }
+
+
+}
+@media (max-width:537px) {
+ header{
+    nav{
+        .navbar{
+            display: none;
+        }
+    }
+ }
+
+}
+@media (max-width:537px) {
+    header{
+       nav{
+           .nav-btn{
+               display: none;
+           }
+       }
+    }
+   
+   }
+   @media (max-width:537px) {
+    header{
+       nav{
+           .nav-butn{
+               display: flex;
+               padding: 7px ;
+           }
+       }
+    }
+   
+   }
+   .header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    gap: 30px;
+
+    h6{
+        max-width: 330px;
+        font-size: 18px;
+         background: #F3F7F2;
+         padding: p10x
+;
+    }
+    p{
+        max-width: 550px;
+        font-size: 50px;
+    }
+    h1{
+        font-size: 50px;
+    }
+   }
+.header-bg{
+    background-image: url(../img/IMAGE\ \(14\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 90%;
+    height: 100vh;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}

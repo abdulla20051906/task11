@@ -1,0 +1,47 @@
+.mainend {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.mainend .main-texts h5 {
+  font-size: 18px;
+  background: #F3F7F2;
+}
+.mainend .main-texts p {
+  font-size: 36px;
+  max-width: 612px;
+  padding: 7px;
+}
+.mainend .mainend-box {
+  width: 510px;
+  border-radius: 12px;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainend .mainend-box p {
+  padding: 15px 20px;
+}
+.mainend .mainend-box span {
+  padding: 15px;
+}
+.mainend .mainend-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+@media (max-width: 550px) {
+  .mainend-boxes {
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+  }
+}/*# sourceMappingURL=mainend.css.map */
